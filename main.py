@@ -104,31 +104,39 @@
 
 
 
-nome1 = (input("Jogador 1: "))
 
-nome2 = (input("Jogador 2: "))
 
-jogada = (input("Jogador 1, você quer par ou ímpar? "))
 
-if jogada == "par":
 
-    numeropar = int(input("Escolha um número: "))
-    numeroimpar= int(input("Escolha um número: "))
 
-if jogada == "ímpar":
-    numeroimpar= int(input("Escolha um número: "))
-    numeropar = int(input("Escolha um número: "))
+# pedir pro prof dudu ajudar
+
+
+# nome1 = (input("Jogador 1: "))
+
+# nome2 = (input("Jogador 2: "))
+
+# jogada = (input("Jogador 1, você quer par ou ímpar? "))
+
+# if jogada == "par":
+
+#     numeropar = int(input("Escolha um número: "))
+#     numeroimpar= int(input("Escolha um número: "))
+
+# if jogada == "ímpar":
+#     numeroimpar= int(input("Escolha um número: "))
+#     numeropar = int(input("Escolha um número: "))
     
-    conta= numeropar + numeroimpar % 2 == 0 else "ímpar":
+#     conta= numeropar + numeroimpar % 2 == 0:
 
- print(f"{nome1} vence!")
+#  print(f"{nome1} vence!")
 
 
 
-    print(f"{nome2} vence!")
+#     print(f"{nome2} vence!")
 
-    if jogada== "ímpar" 
-    numeropar + numeroimpar % 2 != 0:
+#     if jogada== "ímpar" 
+#     numeropar + numeroimpar % 2 != 0:
  
 
 
@@ -137,28 +145,110 @@ if jogada == "ímpar":
 
 
 
- import random
-print ("=" * 35)
-print (" PEDRA, PAPEL OU TESOURA")
-print("=" * 35)
+#  import random
+# print ("=" * 35)  
+# print (" PEDRA, PAPEL OU TESOURA")
+# print("=" * 35)
 
-opcoes = ["pedra", "papel" , "tesoura"]
-computador = random.choice(opcoes)
+# opcoes = ["pedra", "papel" , "tesoura"]
+# computador = random.choice(opcoes)
 
-Jogador = input ("\nEscolha (pedra/papel/tesoura): ").lower()
+# Jogador = input ("\nEscolha (pedra/papel/tesoura): ").lower()
 
-print(f"\nVocê: {Jogador}")
-print(f"Computador: {computador}")
+# print(f"\nVocê: {Jogador}")
+# print(f"Computador: {computador}")
 
-if Jogador == computador:
-    print("\nEmpate!")
-elif Jogador == "pedra" and computador == "tesoura":
-    print("\nVocê ganhou!")
-elif Jogador == "papel" and computador == "pedra":
-     print("\nVocê ganhou!")
-elif Jogador == computador:
-     print("\nEmpate!")
-elif Jogador == "tesoura" and computador == "papel":
-     print("\nVocê ganhou!")
-else:
-    print("\nVocê empate!")
+# if Jogador == computador:
+#     print("\nEmpate!")
+# elif Jogador == "pedra" and computador == "tesoura":
+#     print("\nVocê ganhou!")
+# elif Jogador == "papel" and computador == "pedra":
+#      print("\nVocê ganhou!")
+# elif Jogador == computador:
+#      print("\nEmpate!")
+# elif Jogador == "tesoura" and computador == "papel":
+#      print("\nVocê ganhou!")
+# else:
+#     print("\nVocê empate!")
+
+
+
+
+
+
+# contador = 1
+# while contador <= 5:
+#     print("Olá, mundo!")
+#     contador += 1
+
+
+
+
+
+
+
+
+
+
+
+# for i in range (0, 5): 
+#     print("Olá mundo!")
+
+
+
+# while True:
+#     idade = int(input("digite sua idade:"))
+#     if idade > 0:
+#         break
+#     print("Idade inválida! Tente novamente!")
+
+#     print("Idade registrada!")
+
+
+
+
+
+
+
+
+
+# while True:
+
+#     print("___ Calculadora ___\n") \
+
+#     "1- Somar \n"   
+#     "2- Subtrair \n"
+#     "3- Multiplicar \n"
+#     "4- Sair \n"
+#     opcao = int(input("Escolha uma opção: "))
+#     if opcao == 4:
+#         print("Ecerrando calculadora...")
+#         break
+#     if opcao == 1:
+#        print("Você escolheu somar...")
+#        break
+#     elif opcao == 2:
+#         print("Você escolheu subtrair")
+#         break
+#     elif opcao == 3:
+#         print("Você escolheu multiplicar")
+#         break
+#     else:
+#         print("Opção invalida!")
+#         break
+
+
+
+
+
+
+
+
+
+
+
+numero = int(input("escolha um numero: "))
+
+
+for oi in range(0, 10)
+print(oi)
