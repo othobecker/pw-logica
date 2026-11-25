@@ -64,16 +64,63 @@
 
 # print("Bem vindo!")
 
-import random
-numerosecreto = random.randiant(1, 20)
-tentativas = 0
-palpite = int(input("Tente adivinhar um número entre 1 e 20:"))
+# import random
+# numerosecreto = random.randiant(1, 20)
+# tentativas = 0
+# palpite = int(input("Tente adivinhar um número entre 1 e 20:"))
 
-while palpite != numerosecreto:
-    tentativas += 1
-    if palpite < numerosecreto:
-        print("O número secreto é maior!")
-    else:
-        print("O numero secreto é menor!")
-        palpite = int(input("Tente novamente: "))
-tentativas += 1
+# while palpite != numerosecreto:
+#     tentativas += 1
+#     if palpite < numerosecreto:
+#         print("O número secreto é maior!")
+#     else:
+#         print("O numero secreto é menor!")
+#         palpite = int(input("Tente novamente: "))
+# tentativas += 1
+# print("Parabéns! Você acertou!")
+# print(f"Você utilizou {tentativas} tentativas.")
+
+
+
+
+
+
+# nome = int(input("Seu nome: "))
+# peso = int (input("Seu peso em KG"))
+# altura = int(input("Sua altura em metros"))
+
+# resultado = peso / (altura ** 2)
+
+# print(f"Olá {nome} seu IMC é de {resultado}")
+
+
+
+
+
+
+import pygame
+pygame.init()
+
+LARGURA = 600
+ALTURA = 400
+
+tela = pygame.display.set_mode((LARGURA, ALTURA))
+pygame.display.set_caption("Space invaders")
+
+FUNDO = (0, 0, 0)
+VERDE = (100, 255, 100)
+TAMNHO_PIXEL = 20
+
+ALGO = [
+
+"000000000000000000000"
+"111111111111111111111"
+"000000000000000000000"
+"000000000000000000000"
+"000000000000000000000"
+"000000000000000000000"
+
+
+
+
+]
