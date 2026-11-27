@@ -97,30 +97,95 @@
 
 
 
+# quantia = 0
+# total = 0
 
-import pygame
-pygame.init()
+# preco = float(input("Digite o preço do produto: \n"
+#                     "(Digite 0 para encerrar) \n"
+#                     "R$"))
 
-LARGURA = 600
-ALTURA = 400
+# while preco != 0:
+#     total += preco
+#     quantia += 1
 
-tela = pygame.display.set_mode((LARGURA, ALTURA))
-pygame.display.set_caption("Space invaders")
+# preco = float(input("Digite o preço do próximo produto: \n"
+#                     "(Digite 0 para encerrar) \n"
+#                     "R$"))
 
-FUNDO = (0, 0, 0)
-VERDE = (100, 255, 100)
-TAMNHO_PIXEL = 20
-
-ALGO = [
-
-"000000000000000000000"
-"111111111111111111111"
-"000000000000000000000"
-"000000000000000000000"
-"000000000000000000000"
-"000000000000000000000"
+# print(f"Total da compra: R$ {total:.2f}")
+# print(f"Quantidade de produtos: {quantia}")
 
 
 
 
-]
+
+
+
+
+
+
+
+# filmes = ["Divertidamente", "Era do gelo",
+#           "Gente Grande", "Toy Sotry",
+#           "Harry Potter"
+#           ]
+
+# print("Lista completa de filmes: \n {filmes}")
+# print(f"\nO Primeiro filme é {filmes[0]}")
+# print(f"\nO último filme é {filmes[4]}")
+# print(f"\nQuantidade de filmes: {len(filmes)}")
+      
+                
+
+# compras = ["Batata frita da playstation",
+#             "Amaciante", "Cubo de chocolate"
+#             ]
+
+
+# compras.append("Mac n' Cheese")
+# compras.append("Café")
+
+# print(compras)
+
+
+
+
+
+# alunos = ["Lucas", "Otho", "Rafael"]
+
+# contador = 0
+# for aluno in alunos:
+#     print(f"Aluno: {contador} : {aluno}")
+
+#     contador += 1
+
+
+
+
+
+
+
+nota1 = int(input("Digite a primeira nota: "))
+
+nota2 = int(input("Digite a segunda nota: "))
+
+nota3 = int(input("Digite a terceira nota: "))
+
+nota4 = int(input("Digite a quarta nota: "))
+
+nota5 = int(input("Digite a última nota: "))
+
+notas = [nota1, nota2, nota3, nota4, nota5]
+
+soma = nota1 + nota2 + nota3 + nota4 + nota5
+
+media = soma / 5
+
+print(f"A soma de suas notas é: {soma}")
+
+print(f"A sua média é: {media}")
+
+print("A sua maior nota é:", max(notas))
+
+print("A sua menor nota é:", min(notas))
+
